@@ -1,19 +1,18 @@
 import controllers.PersonController;
 import models.Person;
-import test.PersonaControllerTest;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
         PersonController personController = new PersonController();
         Person[] persons = makePersonList();
-        for (int i = 0; i < personas.length; i++) {
-            System.out.println(personas[i]);
+        for (int i = 0; i < persons.length; i++) {
+            System.out.println(persons[i]);
         }
 
         personController.sortByName(persons);
-        for (int i = 0; i < personas.length; i++) {
-            System.out.println(personas[i]);
+        for (int i = 0; i < persons.length; i++) {
+            System.out.println(persons[i]);
         }
 
     }
