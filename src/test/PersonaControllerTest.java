@@ -25,13 +25,14 @@ public class PersonaControllerTest {
         people[2] = new Person("Charlie", 35);
         people[3] = new Person("David", 28);
         people[4] = new Person("Emma", 32);
+        
+        people[9] = new Person("Jack", 33);
+        people[10] = new Person("Kate", 24);
+        people[11] = new Person("Liam", 36);
         people[5] = new Person("Frank", 27);
         people[6] = new Person("Grace", 29);
         people[7] = new Person("Henry", 31);
         people[8] = new Person("Ivy", 26);
-        people[9] = new Person("Jack", 33);
-        people[10] = new Person("Kate", 24);
-        people[11] = new Person("Liam", 36);
         people[12] = new Person("Mia", 23);
         people[13] = new Person("Noah", 34);
         people[14] = new Person("Olivia", 22);
